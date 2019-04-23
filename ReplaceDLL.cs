@@ -39,7 +39,7 @@ public class ReplaceDll
                     AssetDatabase.AssetPathToGUID(path),
                     "11500000"
                 ));
-                go.SafeDestroySelf();
+                GameObject.DestroyImmediate(go);
             }
         }
         
